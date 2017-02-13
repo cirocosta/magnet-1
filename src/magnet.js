@@ -122,7 +122,6 @@ class Magnet {
   async loadApplication_() {
     logger.info('[APP]', 'Loading middlewares, models and routes');
 
-    try {
       let wizard = new Wizard(this.getEnvironment().express.wizard);
 
       if (this.getEnvironment().injectionFiles.length > 0) {
@@ -145,9 +144,10 @@ class Magnet {
         .exclude('build/**');
       }
 
+    try {
       await wizard.into(this.getServerEngine().getEngine(), this);
     } catch(e) {
-      logger.error('eita', e);
+      logger.error('[ERROR]', e);
     }
 
     return this;

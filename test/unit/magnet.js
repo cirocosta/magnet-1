@@ -1,8 +1,7 @@
 import Magnet from '../../src/magnet';
 import ExpressEngine from '../../src/server/express-engine';
 import Server from '../../src/server/server';
-// import {existsSync} from 'fs';
-// import path from 'path';
+import path from 'path';
 import wiston from 'winston';
 
 
@@ -318,7 +317,7 @@ describe('Magnet', function() {
   });
 
   describe('#setupApplication', function() {
-    it('should inject dependencies of all the files', async () => {
+    it.only('should inject dependencies of all the files', async () => {
       const magnetEnv = {
         magnet: {
           port: 5000,
@@ -326,7 +325,8 @@ describe('Magnet', function() {
         },
       };
 
-      const appDirectory = `${process.cwd()}/test/fixtures/fake_app`;
+      const appDirectory = path.resolve('test/fixtures/fake_app');
+
       const engine = new ExpressEngine();
       const magnetConfig = {
         appEnvironment: magnetEnv,

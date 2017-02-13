@@ -1726,10 +1726,11 @@ expand-tilde@^1.2.1, expand-tilde@^1.2.2:
   dependencies:
     os-homedir "^1.0.1"
 
-express-wizard@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/express-wizard/-/express-wizard-0.2.2.tgz#babee310131cb5e9586e13e8d7c671b5f8824be9"
+express-wizard@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/express-wizard/-/express-wizard-0.2.4.tgz#43b919f747cbac786015a2e3d6476ac323d4eb91"
   dependencies:
+    bluebird "^3.4.7"
     multi-glob "^1.0.1"
 
 express@^4.13.0:
