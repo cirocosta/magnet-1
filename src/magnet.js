@@ -147,7 +147,8 @@ class Magnet {
     try {
       await wizard.into(this.getServerEngine().getEngine(), this);
     } catch(e) {
-      logger.error('[ERROR]', e);
+      logger.error('[ERROR]', arguments);
+      console.log(e);
     }
 
     return this;
@@ -292,7 +293,6 @@ class Magnet {
         .maybeCallStartHook_();
 
       await this.loadApplication_();
-
       this.loadGeneralErrorMiddleware_();
 
       return this;

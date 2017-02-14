@@ -317,7 +317,7 @@ describe('Magnet', function() {
   });
 
   describe('#setupApplication', function() {
-    it.only('should inject dependencies of all the files', async () => {
+    it('should inject dependencies of all the files', async () => {
       const magnetEnv = {
         magnet: {
           port: 5000,
@@ -336,8 +336,9 @@ describe('Magnet', function() {
 
       const magnet = new Magnet(magnetConfig);
       const instance = await magnet.setupApplication();
-      const internalEngine = instance.getServerEngine().getEngine();
 
+      const internalEngine = instance.getServerEngine().getEngine();
+      console.log(internalEngine.controllers);
       expect(internalEngine.controllers.one).to.be.an.instanceof(Function);
     });
 

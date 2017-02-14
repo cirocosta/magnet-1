@@ -42,8 +42,8 @@ ajv-keywords@^1.0.0, ajv-keywords@^1.1.1:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
 
 ajv@^4.7.0:
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.2.tgz#f166c3c11cbc6cb9dcc102a5bcfe5b72c95287e6"
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.3.tgz#ce30bdb90d1254f762c75af915fb3a63e7183d22"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -95,8 +95,8 @@ application-config@~0.1.1:
     mkdirp "^0.5.1"
 
 aproba@^1.0.3:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.1.0.tgz#4d8f047a318604e18e3c06a0e52230d3d19f147b"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.1.1.tgz#95d3600f07710aa0e9298c726ad5ecf2eacbabab"
 
 archy@^1.0.0:
   version "1.0.0"
@@ -561,10 +561,6 @@ babel-plugin-transform-es2015-unicode-regex@^6.22.0:
     babel-runtime "^6.22.0"
     regexpu-core "^2.0.0"
 
-babel-plugin-transform-promise-to-bluebird@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-promise-to-bluebird/-/babel-plugin-transform-promise-to-bluebird-1.1.1.tgz#dbb0882086ba3da6e1dfc2eeb58d1293acfee8f6"
-
 babel-plugin-transform-regenerator@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.22.0.tgz#65740593a319c44522157538d690b84094617ea6"
@@ -715,21 +711,17 @@ bluebird@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-1.0.3.tgz#c4b441184802e3b64a61eeed4578271b4c8bf6ac"
 
-bluebird@^3.4.7:
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
-
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.6"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.6.tgz#53344adb14617a13f6e8dd2ce28905d1c0ba3215"
 
 body-parser@^1.13.1:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.16.0.tgz#924a5e472c6229fb9d69b85a20d5f2532dec788b"
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.16.1.tgz#51540d045adfa7a0c6995a014bb6b1ed9b802329"
   dependencies:
     bytes "2.4.0"
     content-type "~1.0.2"
-    debug "2.6.0"
+    debug "2.6.1"
     depd "~1.1.0"
     http-errors "~1.5.1"
     iconv-lite "0.4.15"
@@ -1271,9 +1263,9 @@ debug@2.2.0, debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
-debug@2.6.0, debug@^2.1.1, debug@^2.2.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
+debug@2.6.1, debug@^2.1.1, debug@^2.2.0:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
     ms "0.7.2"
 
@@ -1726,11 +1718,10 @@ expand-tilde@^1.2.1, expand-tilde@^1.2.2:
   dependencies:
     os-homedir "^1.0.1"
 
-express-wizard@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/express-wizard/-/express-wizard-0.2.4.tgz#43b919f747cbac786015a2e3d6476ac323d4eb91"
+express-wizard@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/express-wizard/-/express-wizard-0.2.13.tgz#74203d6ebce174fbb629143584cecac168e5b83e"
   dependencies:
-    bluebird "^3.4.7"
     multi-glob "^1.0.1"
 
 express@^4.13.0:
@@ -1983,7 +1974,7 @@ from@~0:
 
 fs-exists-sync@^0.1.0:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
+  resolved "http://registry.npmjs.org/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -2122,7 +2113,7 @@ glob-watcher@^0.0.6:
 
 glob2base@^0.0.12:
   version "0.0.12"
-  resolved "http://registry.npmjs.org/glob2base/-/glob2base-0.0.12.tgz#9d419b3e28f12e83a362164a277055922c9c0d56"
+  resolved "https://registry.yarnpkg.com/glob2base/-/glob2base-0.0.12.tgz#9d419b3e28f12e83a362164a277055922c9c0d56"
   dependencies:
     find-index "^0.1.1"
 
@@ -2774,7 +2765,7 @@ is-path-inside@^1.0.0:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.yarnpkg.com/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
@@ -2929,8 +2920,8 @@ js-yaml@3.x, js-yaml@^3.5.1:
     esprima "^3.1.1"
 
 jsbn@~0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.0.tgz#650987da0dd74f4ebf5a11377a2aa2d273e97dfd"
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
 jsesc@^1.3.0:
   version "1.3.0"
@@ -3418,11 +3409,11 @@ moment-timezone@0.5.5:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
 
 morgan@^1.6.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.8.0.tgz#7884d7816b7e5a22db11a9e3a572b197a0e5566c"
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.8.1.tgz#f93023d3887bd27b78dfd6023cea7892ee27a4b1"
   dependencies:
     basic-auth "~1.1.0"
-    debug "2.6.0"
+    debug "2.6.1"
     depd "~1.1.0"
     on-finished "~2.3.0"
     on-headers "~1.0.1"
@@ -4855,7 +4846,7 @@ uid-number@~0.0.6:
 
 unc-path-regex@^0.1.0:
   version "0.1.2"
-  resolved "http://registry.npmjs.org/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
+  resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
 
 undefsafe@0.0.3:
   version "0.0.3"
@@ -5008,8 +4999,8 @@ vm-browserify@0.0.4:
     indexof "0.0.1"
 
 watchpack@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.2.0.tgz#15d4620f1e7471f13fcb551d5c030d2c3eb42dbb"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.2.1.tgz#01efa80c5c29e5c56ba55d6f5470a35b6402f0b2"
   dependencies:
     async "^2.1.2"
     chokidar "^1.4.3"
